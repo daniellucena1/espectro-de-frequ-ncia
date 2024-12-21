@@ -1,4 +1,4 @@
-# ESPECTOGRAMA MUSICAL
+# ESPECTrOGRAMA MUSICAL
 
 Este código Python é feito para analisar e criar imagens que mostram o espectro de frequência da música desejada
 
