@@ -21,11 +21,11 @@ Importando as bibliotecas necessárias para o código
 
 Para instalá-las:
 
-`
+```hcl
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-`
+```
 ### O que faz?
 
 `Numpy`:
