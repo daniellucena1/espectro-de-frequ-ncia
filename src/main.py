@@ -2,7 +2,7 @@ import numpy as np
 import librosa
 import matplotlib.pyplot as plt
 from PIL import Image, ImageDraw, ImageFont
- 
+
 audio_path = "something.mp3"
 audio_array, taxa_hz = librosa.load(audio_path, sr=None)
 
@@ -16,7 +16,7 @@ plt.plot(audio_array_normalized, color="black", linewidth=1)
 plt.axis("off")  
 plt.tight_layout()
 
-imagem_salva = "src/images/espectograma_simplificado.png"
+imagem_salva = "images/espectograma_simplificado.png"
 plt.savefig(imagem_salva, bbox_inches='tight', pad_inches=0, dpi=300)
 plt.close()
 
